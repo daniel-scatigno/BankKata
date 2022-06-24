@@ -1,6 +1,6 @@
-using System.Transactions;
 //https://katalyst.codurance.com/bank
-
+//https://www.thecodebuzz.com/dbcontext-mock-and-unit-test-entity-framework-net-core/
+using System.Transactions;
 using Moq;
 using Moq.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
