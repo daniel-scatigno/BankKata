@@ -5,6 +5,11 @@ namespace BankKata
 {
     public class BankContext : DbContext
     {
+        public BankContext(DbContextOptions options):base(options)
+        {
+
+        }
+        
         public virtual DbSet<Account> Accounts { get; set; } = null!;
         public virtual DbSet<AccountTransaction> Transactions { get; set; } = null!;
     }
@@ -12,7 +17,8 @@ namespace BankKata
     public class Account
     {
         public int Id { get; set; }
-        public string? Name { get; set; }        
+        public string? Name { get; set; }
+        public int Balance{get;set;}
 
         public virtual List<AccountTransaction> Transactions { get; set; } = new ();
     }
@@ -24,6 +30,8 @@ namespace BankKata
         public OperationType Type{get;set;}
 
         public int Amount{get;set;}
+
+        public int HistoricBalance{get;set;}
 
         public Account Account{get;set;} = new();
 
