@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace BankKata
+namespace BankKata.App.Services
 {
     public class BankContext : DbContext
     {

@@ -1,5 +1,4 @@
-
-namespace BankKata
+namespace BankKata.App.Interfaces
 {
     public interface IAccountService
     {

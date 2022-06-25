@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankKata", "BankKata.csproj", "{DC1491DC-57A1-4A6C-B175-5FBC4E7411E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankKata.Test", "BankKata.Test\BankKata.Test.csproj", "{DC1491DC-57A1-4A6C-B175-5FBC4E7411E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankKata.App", "BankKata.App\BankKata.App.csproj", "{6D3141B2-7360-4F35-934D-1D0C907C0160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{DC1491DC-57A1-4A6C-B175-5FBC4E7411E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC1491DC-57A1-4A6C-B175-5FBC4E7411E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC1491DC-57A1-4A6C-B175-5FBC4E7411E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D3141B2-7360-4F35-934D-1D0C907C0160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3141B2-7360-4F35-934D-1D0C907C0160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3141B2-7360-4F35-934D-1D0C907C0160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3141B2-7360-4F35-934D-1D0C907C0160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
