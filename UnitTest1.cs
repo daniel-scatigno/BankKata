@@ -1,5 +1,6 @@
 //https://katalyst.codurance.com/bank
 //https://www.thecodebuzz.com/dbcontext-mock-and-unit-test-entity-framework-net-core/
+//https://stackoverflow.com/a/9911500
 using System.Transactions;
 using Moq;
 using Moq.EntityFrameworkCore;
@@ -45,7 +46,7 @@ public class UnitTest1
       //It's TODAY and we print Bank account transactions
       accountService = new AccountService(bankContext, DateTime.Today, myAccount);
       accountService.PrintStatement();
-      string line = Console.Read();
+      string line = Console.ReadLine();
 
       Assert.Equal("bank", line);
 
